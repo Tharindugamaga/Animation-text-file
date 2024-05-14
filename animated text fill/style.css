@@ -1,0 +1,42 @@
+@import url("https://fonts.googepis.com/css?family=neuton|oswald");
+
+body{
+    height: 100vh;
+    background: #090d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    width:40cm ;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font:400 1em/1.5 "Neuton" ;
+    color: #ffffff40;
+    display:inline-block ;
+    border: 4px double #ffffff40;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+}
+p span{
+    font: 700 4em/1 "oswald",sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80PX rgba(255,255,255,0.5);
+    background: 
+    url("https://th.bing.com/th/id/R.14698e67cd37a4081e7714ff433a7b61?rik=ztM1NqoNe%2b2ViA&pid=ImgRaw&r=0") repeat-y;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    animation: anim 80s linear infinite;
+}
+@-webkit-keyframes anim{
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position:50% 100% ;
+    }
+}
